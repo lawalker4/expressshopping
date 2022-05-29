@@ -70,7 +70,10 @@ To run application take the following steps:
 
 #### Author
 
+
+
 Built and maintain by [Ashley Walker](https://github.com/lawalker4)
+
 ---
 
 #### Contact me with any questions you might have
