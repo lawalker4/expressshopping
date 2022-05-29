@@ -64,15 +64,14 @@ To run application take the following steps:
 ---
 
 ### Screenshot
+:movie_camera:	
 [Demo Video]()
 
 ---
 
 #### Author
 
-:black_nib:	
-
-Built and maintain by [Ashley Walker](https://github.com/lawalker4)
+:black_nib:	Built and maintain by [Ashley Walker](https://github.com/lawalker4)
 
 ---
 
