@@ -15,6 +15,10 @@ router.get('/', (req, res) => {
         model: Category,
         attributes: ['category_name']
       },
+      {
+        model: Tag,
+        attricutes: ['tag_name']
+      }
     ]
   })
     .then(dbProductData => res.json(dbProductData))
