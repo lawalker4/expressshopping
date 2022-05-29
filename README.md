@@ -70,11 +70,12 @@ To run application take the following steps:
 
 #### Author
 
-
+:black_nib:	
 
 Built and maintain by [Ashley Walker](https://github.com/lawalker4)
 
 ---
 
 #### Contact me with any questions you might have
+:mailbox_with_mail:
 Email: lauraashleywalker4@gmail.com
