@@ -9,14 +9,20 @@ router.get('/', (req, res) => {
   // find all categories
   // be sure to include its associated Products
   Comment.findAll({
-    include: [
+    include: 
       {
         model: Product,
-        attributes: ["product_name"]
+        attributes: ["id", "product_name", "price","stock","category_id"]
       },
-    ],
+    
   })
-    .then(dbCategoryData => res.json(dbCategoryData))
+    .then(dbCategoryData =>{
+    if(!dbCategoryData){
+      res.status(404).json({message: "Cannot find category"});
+      return;
+    }
+    res.json(dbCategoryData);
+  })
     .catch(err => {
       console.log(err);
       res.status(500).json(err);
@@ -63,7 +69,7 @@ router.post('/', (req, res) => {
 
 router.put('/:id', (req, res) => {
   // update a category by its `id` value
-  Catagor.update(req.body, {
+  Category.update(req.body, {
     where: {
       id: req.params.id
     }
