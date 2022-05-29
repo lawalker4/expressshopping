@@ -42,7 +42,7 @@ THEN I am able to successfully create, update, and delete data in my database
 ---
 
 ### Installation
-[REPO]()
+[REPO](https://github.com/lawalker4/expressshopping)
 
 [Express.js](https://expressjs.com/en/starter/installing.html)
 
