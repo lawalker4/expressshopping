@@ -46,9 +46,11 @@ THEN I am able to successfully create, update, and delete data in my database
 
 [Express.js](https://expressjs.com/en/starter/installing.html)
 
-[DB-JSON](https://www.npmjs.com/package/db-json)
+[MySQL](https://www.mysql.com/)
 
-[Heroku](https://www.heroku.com/)
+[Sequelize](https://sequelize.org/)
+
+[Insomnia](https://insomnia.rest/)
 
 ---
 
@@ -58,14 +60,17 @@ To run application take the following steps:
 1. Clone repo to your computer.
 2. Install and run express.js by running npm install expess.
 3. After saving code run npm start.
-4. Open new live server and type in localhost:3001.
-5. After you run the live server you can add and delete your notes. 
+4. Run npm start seed
+5. Open new live server and type in localhost:3001 in Insomnia
+5. Go through the different folders and to run Put, Post and Delete option
 
 ---
 
 ### Screenshot
 :movie_camera:	
 [Demo Video]()
+
+[Screenshot](./images/Screenshot%201.PNG)
 
 ---
 
