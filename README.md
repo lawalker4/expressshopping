@@ -1,9 +1,9 @@
 # E-commerce Back End Starter Code
-Using Express.js this application, called Note Taker, will allow you to save and retrieve notes that you have saved on your application.  
-
+Your challenge is to build the back end for an e-commerce site. You’ll take a working Express.js API and configure it to use Sequelize to interact with a MySQL database.
 ---
 ## About
-Your challenge is to build the back end for an e-commerce site. You’ll take a working Express.js API and configure it to use Sequelize to interact with a MySQL database.
+
+Internet retail, also known as e-commerce, is the largest sector of the electronics industry, having generated an estimated US$29 trillion in 2017 (Source: United Nations Conference on Trade and Development). E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to the prevalence of these platforms, developers should understand the fundamental architecture of e-commerce sites.
 
 ---
 
@@ -57,7 +57,6 @@ To run application take the following steps:
 4. Open new live server and type in localhost:3001.
 5. After you run the live server you can add and delete your notes. 
 
-
 ---
 
 ### Screenshot
@@ -65,7 +64,7 @@ To run application take the following steps:
 
 ---
 
-### Author
+#### Author
 
 Built and maintain by [Ashley Walker](https://github.com/lawalker4)
 ---
