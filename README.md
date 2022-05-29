@@ -70,7 +70,7 @@ To run application take the following steps:
 :movie_camera:	
 [Demo Video]()
 
-[Screenshot](./images/Screenshot%201.PNG)
+![Screenshot](./images/Screenshot%201.PNG)
 
 ---
 
